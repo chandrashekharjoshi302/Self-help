@@ -1,1 +1,430 @@
-HTML Introduction
+HTML Introduction 
+
+<----->
+
+What is HTML?
+
+HTML stands for Hyper Text Markup Language
+HTML is the standard markup language for creating Web pages
+HTML describes the structure of a Web page
+HTML consists of a series of elements
+HTML elements tell the browser how to display the content
+HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.
+
+<----->
+
+<----->
+Example
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+<h1>My First Heading</h1>
+<p>My first paragraph.</p>
+
+</body>
+</html>
+
+ Explained
+The <!DOCTYPE html> declaration defines that this document is an HTML5 document
+The <html> element is the root element of an HTML page
+The <head> element contains meta information about the HTML page
+The <title> element specifies a title for the HTML page (which is shown in the browser's title bar or in the page's tab)
+The <body> element defines the document's body, and is a container for all the visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.
+The <h1> element defines a large heading
+The <p> element defines a paragraph
+
+<----->
+
+<----->
+What is an HTML Element?
+An HTML element is defined by a start tag, some content, and an end tag:
+
+<tagname> Content goes here... </tagname>
+
+
+Nested HTML Elements
+HTML elements can be nested (this means that elements can contain other elements).
+
+All HTML documents consist of nested HTML elements.
+
+The following example contains four HTML elements (<html>, <body>, <h1> and <p>):
+
+
+Never Skip the End Tag
+Some HTML elements will display correctly, even if you forget the end tag:
+However, never rely on this! Unexpected results and errors may occur if you forget the end tag!
+
+Empty HTML Elements
+HTML elements with no content are called empty elements.
+
+The <br> tag defines a line break, and is an empty element without a closing tag:
+
+
+HTML is Not Case Sensitive
+HTML tags are not case sensitive: <P> means the same as <p>.
+
+<----->
+<----->
+HTML Attributes
+All HTML elements can have attributes
+Attributes provide additional information about elements
+Attributes are always specified in the start tag
+Attributes usually come in name/value pairs like: name="value"
+
+Summary
+All HTML elements can have attributes
+The href attribute of <a> specifies the URL of the page the link goes to
+The src attribute of <img> specifies the path to the image to be displayed
+The width and height attributes of <img> provide size information for images
+The alt attribute of <img> provides an alternate text for an image
+The style attribute is used to add styles to an element, such as color, font, size, and more
+The lang attribute of the <html> tag declares the language of the Web page
+The title attribute defines some extra information about an element
+
+
+src attribute:
+
+1. Absolute URL -
+2. Relative URL -
+
+<----->
+
+<----->
+
+HTML Headings
+HTML headings are defined with the <h1> to <h6> tags.
+
+<h1> defines the most important heading. <h6> defines the least important heading.
+
+HTML Paragraphs
+The HTML <p> element defines a paragraph.
+
+A paragraph always starts on a new line, and browsers automatically add some white space (a margin) before and after a paragraph.
+
+
+HTML Horizontal Rules
+The <hr> tag defines a thematic break in an HTML page, and is most often displayed as a horizontal rule.
+
+The <hr> element is used to separate content (or define a change) in an HTML page:
+
+
+HTML Line Breaks
+The HTML <br> element defines a line break.
+
+Use <br> if you want a line break (a new line) without starting a new paragraph:
+
+The HTML <pre> Element
+The Poem Problem
+
+The HTML <pre> element defines preformatted text.
+
+The text inside a <pre> element is displayed in a fixed-width font (usually Courier), and it preserves both spaces and line breaks:
+
+
+HTML Styles
+The HTML style attribute is used to add styles to an element, such as color, font, size, and more
+
+Summary
+Use the style attribute for styling HTML elements
+Use background-color for background color
+Use color for text colors
+Use font-family for text fonts
+Use font-size for text sizes
+Use text-align for text alignment
+
+<----->
+<----->
+HTML Text Formatting
+
+HTML Formatting Elements
+Formatting elements were designed to display special types of text:
+
+<b> - Bold text
+<strong> - Important text
+<i> - Italic text
+<em> - Emphasized text
+<mark> - Marked text
+<small> - Smaller text
+<del> - Deleted text
+<ins> - Inserted text
+<sub> - Subscript text
+<sup> - Superscript text
+
+
+HTML Comments
+
+HTML Colors
+
+HTML colors are specified with predefined color names, or with RGB, HEX, HSL, RGBA, or HSLA values
+
+CSS
+CSS can be added to HTML documents in 3 ways:
+
+Inline - by using the style attribute inside HTML elements
+Internal - by using a <style> element in the <head> section
+External - by using a <link> element to link to an external CSS file
+
+<----->
+<----->
+
+HTML Links
+
+HTML Links - Syntax
+The HTML <a> tag defines a hyperlink. It has the following syntax:
+
+<a href="url">link text</a>
+
+Links are found in nearly all web pages. Links allow users to click their way from page to page.
+
+The target attribute specifies where to open the linked document.
+
+The target attribute can have one of the following values:
+
+_self - Default. Opens the document in the same window/tab as it was clicked
+_blank - Opens the document in a new window or tab
+_parent - Opens the document in the parent frame
+_top - Opens the document in the full body of the window
+
+Absolute URLs vs. Relative URLs
+
+Summary
+Use the <a> element to define a link
+Use the href attribute to define the link address
+Use the target attribute to define where to open the linked document
+Use the <img> element (inside <a>) to use an image as a link
+Use the mailto: scheme inside the href attribute to create a link that opens the user's email program
+
+<----->
+<----->
+HTML Images
+
+ Summary
+Use the HTML <img> element to define an image
+Use the HTML src attribute to define the URL of the image
+Use the HTML alt attribute to define an alternate text for an image, if it cannot be displayed
+Use the HTML width and height attributes or the CSS width and height properties to define the size of the image
+Use the CSS float property to let the image float to the left or to the right
+<----->
+<----->
+HTML <picture> Element
+
+The HTML <picture> element allows you to display different pictures for different devices or screen sizes.
+
+<picture>
+  <source media="(min-width: 650px)" srcset="img_food.jpg">
+  <source media="(min-width: 465px)" srcset="img_car.jpg">
+  <img src="img_girl.jpg">
+</picture>
+<----->
+<----->
+HTML Tables
+
+HTML tables allow web developers to arrange data into rows and columns.
+
+Table Tags
+Tag	Description
+<table>	Defines a table
+<th>	Defines a header cell in a table
+<tr>	Defines a row in a table
+<td>	Defines a cell in a table
+<caption>	Defines a table caption
+<colgroup>	Specifies a group of one or more columns in a table for formatting
+<col>	Specifies column properties for each column within a <colgroup> element
+<thead>	Groups the header content in a table
+<tbody>	Groups the body content in a table
+<tfoot>	Groups the footer content in a table
+
+
+<----->
+<----->
+HTML Lists
+
+Unordered HTML List
+An unordered list starts with the <ul> tag. Each list item starts with the <li> tag.
+
+The list items will be marked with bullets (small black circles) by default:
+
+Ordered HTML List
+An ordered list starts with the <ol> tag. Each list item starts with the <li> tag.
+
+The list items will be marked with numbers by default:
+
+Description Lists
+HTML also supports description lists.
+
+A description list is a list of terms, with a description of each term.
+
+The <dl> tag defines the description list, the <dt> tag defines the term (name), and the <dd> tag describes each term:
+
+Example
+<dl>
+  <dt>Coffee</dt>
+  <dd>- black hot drink</dd>
+  <dt>Milk</dt>
+  <dd>- white cold drink</dd>
+</dl>
+<----->
+<----->
+HTML Block and Inline Elements
+
+Block-level Elements
+A block-level element always starts on a new line, and the browsers automatically add some space (a margin) before and after the element.
+
+A block-level element always takes up the full width available (stretches out to the left and right as far as it can).
+
+Here are the block-level elements in HTML:
+
+<address><article><aside><blockquote><canvas><dd><div><dl><dt><fieldset><figcaption><figure><footer><form><h1>-<h6><header><hr><li><main><nav><noscript><ol><p><pre><section><table><tfoot><ul><video>
+<----->
+<----->
+Inline Elements
+An inline element does not start on a new line.
+
+An inline element only takes up as much width as necessary.
+
+Here are the inline elements in HTML:
+
+<a><abbr><acronym><b><bdo><big><br><button><cite><code><dfn><em><i><img><input><kbd><label><map><object><output><q><samp><script><select><small><span><strong><sub><sup><textarea><time><tt><var>
+
+<----->
+<----->
+HTML Div Element
+The <div> element is used as a container for other HTML elements.
+
+HTML class Attribute
+The HTML class attribute is used to specify a class for an HTML element.
+
+Multiple HTML elements can share the same class.
+
+HTML id Attribute
+The HTML id attribute is used to specify a unique id for an HTML element.
+
+You cannot have more than one element with the same id in an HTML document.
+<----->
+<----->
+HTML Iframes
+An HTML iframe is used to display a web page within a web page.
+
+Syntax
+<iframe src="url" title="description"></iframe>
+
+
+Summary
+The HTML <iframe> tag specifies an inline frame
+The src attribute defines the URL of the page to embed
+Always include a title attribute (for screen readers)
+The height and width attributes specify the size of the iframe
+Use border:none; to remove the border around the iframe
+
+<----->
+<----->
+
+HTML - The Head Element
+
+The HTML <head> element is a container for the following elements: <title>, <style>, <meta>, <link>, <script>, and <base>.
+
+HTML Responsive Web Design
+Responsive web design is about creating web pages that look good on all devices!
+
+A responsive web design will automatically adjust for different screen sizes and viewports.
+
+The Viewport
+To create a responsive website, add the following <meta> tag to all your web pages:
+
+Example
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<----->
+<----->
+
+HTML Computer Code Elements
+
+HTML contains several elements for defining user input and computer code.
+
+<code>
+x = 5;
+y = 6;
+z = x + y;
+</code>
+
+HTML <kbd> For Keyboard Input
+
+<----->
+<----->
+
+HTML Semantic Elements
+
+Semantic elements = elements with a meaning.
+
+What are Semantic Elements?
+A semantic element clearly describes its meaning to both the browser and the developer.
+
+
+Examples of non-semantic elements: <div> and <span> - Tells nothing about its content.
+
+Examples of semantic elements: <form>, <table>, and <article> - Clearly defines its content.
+
+<----->
+<----->
+
+HTML Forms
+An HTML form is used to collect user input. The user input is most often sent to a server for processing.
+
+
+
+<----->
+<----->
+HTML Geolocation API
+The HTML Geolocation API is used to locate a user's position.
+
+<----->
+<----->
+HTML Web Storage API
+HTML web storage; better than cookies.
+
+What is HTML Web Storage?
+With web storage, web applications can store data locally within the user's browser.
+
+Before HTML5, application data had to be stored in cookies, included in every server request. Web storage is more secure, and large amounts of data can be stored locally, without affecting website performance.
+
+Unlike cookies, the storage limit is far larger (at least 5MB) and information is never transferred to the server.
+
+Web storage is per origin (per domain and protocol). All pages, from one origin, can store and access the same data.
+
+Browser Support
+The numbers in the table specify the first browser version that fully supports Web Storage.
+<----->
+<----->
+API					
+Web Storage	4.0	8.0	3.5	4.0	11.5
+HTML Web Storage Objects
+HTML web storage provides two objects for storing data on the client:
+
+window.localStorage - stores data with no expiration date
+window.sessionStorage - stores data for one session (data is lost when the browser tab is closed)
+
+<----->
+<----->
+
+HTML Web Workers API
+A web worker is a JavaScript running in the background, without affecting the performance of the page.
+
+What is a Web Worker?
+When executing scripts in an HTML page, the page becomes unresponsive until the script is finished.
+
+A web worker is a JavaScript that runs in the background, independently of other scripts, without affecting the performance of the page. You can continue to do whatever you want: clicking, selecting things, etc., while the web worker runs in the background.
+
+HTML SSE API
+Server-Sent Events (SSE) allow a web page to get updates from a server.
+
+Server-Sent Events - One Way Messaging
+A server-sent event is when a web page automatically gets updates from a server.
+
+This was also possible before, but the web page would have to ask if any updates were available. With server-sent events, the updates come automatically.
+
+
+<----->

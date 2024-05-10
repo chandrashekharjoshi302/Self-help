@@ -1,0 +1,195 @@
+What is HTTP?
+
+HTTP stands for Hyper Text Transfer Protocol
+
+WWW is about communication between web clients and servers
+
+Communication between client computers and web servers is done by sending HTTP Requests and receiving HTTP Responses
+
+HTTP Request / Response
+Communication between clients and servers is done by requests and responses:
+
+A client (a browser) sends an HTTP request to the web
+A web server receives the request
+The server runs an application to process the request
+The server returns an HTTP response (output) to the browser
+The client (the browser) receives the response
+
+What is HTML?
+
+HTML stands for Hyper Text Markup Language
+
+HTML is the standard markup language for Web pages
+
+HTML elements are the building blocks of HTML pages
+
+HTML elements are represented by <> tags
+
+HTML Elements
+An HTML element is a start tag and an end tag with content in between:
+
+<h1>This is a Heading</h1>
+
+HTML Attributes
+HTML elements can have attributes
+Attributes provide additional information about the element
+Attributes come in name/value pairs like charset="utf-8"
+
+
+A Simple HTML Document
+<!DOCTYPE html>
+<html lang="en">
+
+<meta charset="utf-8">
+<title>Page Title</title>
+
+<body>
+   <h1>This is a Heading</h1>
+   <p>This is a paragraph.</p>
+   <p>This is another paragraph.</p>
+</body>
+
+</html>
+
+Example Explained
+HTML elements are the building blocks of HTML pages.
+
+The <!DOCTYPE html> declaration defines this document to be HTML5
+The <html> element is the root element of an HTML page
+The lang attribute  defines the language of the document
+The <meta> element contains meta information about the document
+The charset attribute defines the character set used in the document
+The <title> element specifies a title for the document
+The <body> element contains the visible page content
+The <h1> element defines a large heading
+The <p> element defines a paragraph
+
+
+What is CSS?
+
+CSS stands for Cascading Style Sheets
+
+CSS describes how HTML elements are to be displayed
+
+What is Responsive Web Design?
+
+Responsive Web Design is about using HTML and CSS to automatically resize a website.
+
+Responsive Web Design is about making a website look good on all devices (desktops, tablets, and phones):
+
+Setting The Viewport
+When making responsive web pages, add the following <meta> element to all your web pages:
+
+Example
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+Media Queries
+Media Queries plays an important role in responsive web pages.
+
+With media queries you can define different styles for different browser sizes.
+
+What is JavaScript?
+
+JavaScript is the Programming Language for the Web.
+
+JavaScript can update and change both HTML and CSS.
+
+JavaScript can calculate, manipulate and validate data.
+
+What is ES5?
+
+ES5 is a shortcut for ECMAScript 5
+
+ECMAScript 5 is also known as JavaScript 5
+
+ECMAScript 5 is also known as ECMAScript 2009
+
+What is the HTML DOM?
+
+The HTML DOM is an Object Model for HTML. It defines:
+
+HTML elements as objects
+Properties for all HTML elements
+Methods for all HTML elements
+Events for all HTML elements
+
+The HTML DOM is an API (Programming Interface) for JavaScript:
+
+JavaScript can add/change/remove HTML elements
+JavaScript can add/change/remove HTML attributes
+JavaScript can add/change/remove CSS styles
+JavaScript can react to HTML events
+JavaScript can add/change/remove HTML events
+
+The HTML DOM (Document Object Model)
+When a web page is loaded, the browser creates a Document Object Model of the page.
+
+The HTML DOM model is constructed as a tree of Objects:
+
+Finding HTML Elements
+When you want to access HTML elements with JavaScript, you have to find the elements first.
+
+There are a couple of ways to do this:
+
+Finding HTML elements by id
+Finding HTML elements by tag name
+Finding HTML elements by class name
+Finding HTML elements by CSS selectors
+Finding HTML elements by HTML object collections
+Finding HTML Element by Id
+The easiest way to find an HTML element in the DOM, is by using the element id.
+
+This example finds the element with id="intro":
+
+Example
+var myElement = document.getElementById("intro");
+If the element is found, the method will return the element as an object (in myElement).
+
+If the element is not found, myElement will contain null.
+
+Finding HTML Elements by Tag Name
+This example finds all <p> elements:
+
+Example
+var x = document.getElementsByTagName("p");
+This example finds the element with id="main", and then finds all <p> elements inside "main":
+
+Example
+var x = document.getElementById("main");
+var y = x.getElementsByTagName("p");
+ADVERTISEMENT
+
+Finding HTML Elements by Class Name
+If you want to find all HTML elements with the same class name, use getElementsByClassName().
+This example returns a list of all elements with class="intro".
+
+Example
+var x = document.getElementsByClassName("intro");
+Finding elements by class name does not work in Internet Explorer 8 and earlier versions.
+
+Finding HTML Elements by CSS Selectors
+If you want to find all HTML elements that matches a specified CSS selector (id, class names, types, attributes, values of attributes, etc), use the querySelectorAll() method.
+This example returns a list of all <p> elements with class="intro".
+
+Example
+var x = document.querySelectorAll("p.intro");
+The querySelectorAll() method does not work in Internet Explorer 8 and earlier versions.
+
+What is Google Maps?
+HTML	
+Google Maps is a Google API
+
+Google Fonts is a Google API
+
+Google Charts is a Google API
+
+What is XML?
+HTML	
+XML stands for eXtensible Markup Language
+
+XML plays an important role in many different IT systems
+
+XML is often used for distributing data over the Internet
+
+It is important for all web developers to have a good understanding of XML
+

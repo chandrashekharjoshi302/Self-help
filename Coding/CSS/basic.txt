@@ -1,0 +1,413 @@
+
+CSS Introduction
+What is CSS?
+CSS stands for Cascading Style Sheets
+CSS describes how HTML elements are to be displayed on screen, paper, or in other media
+CSS saves a lot of work. It can control the layout of multiple web pages all at once
+External stylesheets are stored in CSS files
+
+CSS Syntax
+p {
+  color: red;
+  text-align: center;
+}
+Explained
+p is a selector in CSS (it points to the HTML element you want to style: <p>).
+color is a property, and red is the property value
+text-align is a property, and center is the property value
+
+CSS Selectors
+
+CSS selectors are used to "find" (or select) the HTML elements you want to style.
+
+We can divide CSS selectors into five categories:
+
+Simple selectors (select elements based on name, id, class)
+Combinator selectors (select elements based on a specific relationship between them)
+Pseudo-class selectors (select elements based on a certain state)
+Pseudo-elements selectors (select and style a part of an element)
+Attribute selectors (select elements based on an attribute or attribute value)
+
+The CSS id Selector
+The CSS class Selector
+The CSS Universal Selector
+The CSS Grouping Selector
+
+All CSS Simple Selectors
+Selector	Example	Example description
+#id	#firstname	Selects the element with id="firstname"
+.class	.intro	Selects all elements with class="intro"
+element.class	p.intro	Selects only <p> elements with class="intro"
+*	*	Selects all elements
+element	p	Selects all <p> elements
+element,element,..	div, p	Selects all <div> elements and all <p> elements
+
+CSS How To
+Three Ways to Insert CSS
+There are three ways of inserting a style sheet:
+
+External CSS
+Internal CSS
+Inline CSS
+
+CSS Comments
+
+CSS Colors
+
+Colors are specified using predefined color names, or RGB, HEX, HSL, RGBA, HSLA values.
+
+CSS Backgrounds
+
+CSS Backgrounds
+The CSS background properties are used to add background effects for elements.
+
+In these chapters, you will learn about the following CSS background properties:
+
+background-color
+background-image
+background-repeat
+background-attachment
+background-position
+background (shorthand property)
+
+
+CSS Borders
+
+The CSS border properties allow you to specify the style, width, and color of an element's border.
+CSS Border Style
+The border-style property specifies what kind of border to display.
+
+The following values are allowed:
+
+dotted - Defines a dotted border
+dashed - Defines a dashed border
+solid - Defines a solid border
+double - Defines a double border
+groove - Defines a 3D grooved border. The effect depends on the border-color value
+ridge - Defines a 3D ridged border. The effect depends on the border-color value
+inset - Defines a 3D inset border. The effect depends on the border-color value
+outset - Defines a 3D outset border. The effect depends on the border-color value
+none - Defines no border
+hidden - Defines a hidden border
+
+
+CSS Margins
+
+Margins are used to create space around elements, outside of any defined borders.
+Margin - Individual Sides
+CSS has properties for specifying the margin for each side of an element:
+
+margin-top
+margin-right
+margin-bottom
+margin-left
+
+
+CSS Padding
+
+adding is used to create space around an element's content, inside of any defined borders.
+
+Padding - Individual Sides
+CSS has properties for specifying the padding for each side of an element:
+
+padding-top
+padding-right
+padding-bottom
+padding-left
+
+
+CSS Height/Width
+
+CSS Height, Width and Max-width
+The CSS height and width properties are used to set the height and width of an element.
+
+The CSS max-width property is used to set the maximum width of an element.
+All CSS Dimension Properties
+Property	Description
+height	Sets the height of an element
+max-height	Sets the maximum height of an element
+max-width	Sets the maximum width of an element
+min-height	Sets the minimum height of an element
+min-width	Sets the minimum width of an element
+width	Sets the width of an element
+
+
+CSS Box Model
+CSS Box Model
+All HTML elements can be considered as boxes.
+
+The CSS Box Model
+In CSS, the term "box model" is used when talking about design and layout.
+
+The CSS box model is essentially a box that wraps around every HTML element. It consists of: content, padding, borders and margins. The image below illustrates the box model:
+
+Explanation of the different parts:
+
+Content - The content of the box, where text and images appear
+Padding - Clears an area around the content. The padding is transparent
+Border - A border that goes around the padding and content
+Margin - Clears an area outside the border. The margin is transparent
+
+
+CSS Outline
+CSS Outline
+An outline is a line drawn outside the element's border.
+
+CSS Text
+CSS has a lot of properties for formatting text.
+
+CSS Fonts
+
+CSS Fonts
+Choosing the right font for your website is important!
+.p1 {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.p2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.p3 {
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+
+CSS Icons
+Icons can easily be added to your HTML page, by using an icon library.
+Font Awesome Icons
+Bootstrap Icons
+Google Icons
+
+CSS Links
+With CSS, links can be styled in many different ways.
+a:link - a normal, unvisited link
+a:visited - a link the user has visited
+a:hover - a link when the user mouses over it
+a:active - a link the moment it is clicked
+
+CSS Lists
+CSS Tables
+CSS Display
+CSS Max-width
+CSS Position
+The position Property
+The position property specifies the type of positioning method used for an element.
+
+There are five different position values:
+
+static
+relative
+fixed
+absolute
+sticky
+
+CSS Z-index
+
+CSS Layout - The z-index Property
+The z-index property specifies the stack order of an element.
+
+
+CSS Overflow
+CSS Overflow
+The overflow property specifies whether to clip the content or to add scrollbars when the content of an element is too big to fit in the specified area.
+
+The overflow property has the following values:
+
+visible - Default. The overflow is not clipped. The content renders outside the element's box
+hidden - The overflow is clipped, and the rest of the content will be invisible
+scroll - The overflow is clipped, and a scrollbar is added to see the rest of the content
+auto - Similar to scroll, but it adds scrollbars only when necessary
+
+CSS Float
+
+The float Property
+The float property is used for positioning and formatting content e.g. let an image float left to the text in a container.
+
+The float property can have one of the following values:
+
+left - The element floats to the left of its container
+right - The element floats to the right of its container
+none - The element does not float (will be displayed just where it occurs in the text). This is default
+inherit - The element inherits the float value of its parent
+In its simplest use, the float property can be used to wrap text around images.
+
+
+
+CSS Inline-block
+CSS Align
+CSS Combinators
+
+CSS Combinators
+A combinator is something that explains the relationship between the selectors.
+
+A CSS selector can contain more than one simple selector. Between the simple selectors, we can include a combinator.
+
+There are four different combinators in CSS:
+
+descendant selector (space)
+child selector (>)
+adjacent sibling selector (+)
+general sibling selector (~)
+
+
+
+CSS Pseudo-class
+
+What are Pseudo-classes?
+A pseudo-class is used to define a special state of an element.
+
+For example, it can be used to:
+
+Style an element when a user mouses over it
+Style visited and unvisited links differently
+Style an element when it gets focus
+
+
+CSS Pseudo-element
+
+What are Pseudo-Elements?
+A CSS pseudo-element is used to style specified parts of an element.
+
+For example, it can be used to:
+
+Style the first letter, or line, of an element
+Insert content before, or after, the content of an elemen
+
+CSS Opacity
+CSS Navigation Bar
+CSS Dropdowns
+CSS Image Gallery
+CSS Image Sprites
+CSS Attr Selectors
+
+CSS Attribute Selectors
+Style HTML Elements With Specific Attributes
+It is possible to style HTML elements that have specific attributes or attribute values.
+
+CSS [attribute] Selector
+The [attribute] selector is used to select elements with a specified attribute.
+
+The following example selects all <a> elements with a target attribute:
+
+Example
+a[target] {
+  background-color: yellow;
+}
+
+
+CSS Forms
+CSS Counters
+CSS Website Layout
+CSS Units
+CSS Specificity
+CSS Specificity
+What is Specificity?
+If there are two or more CSS rules that point to the same element, the selector with the highest specificity value will "win", and its style declaration will be applied to that HTML element.
+
+Think of specificity as a score/rank that determines which style declaration is ultimately applied to an element.
+
+Look at the following examples:
+
+CSS !important
+What is !important?
+The !important rule in CSS is used to add more importance to a property/value than normal.
+
+In fact, if you use the !important rule, it will override ALL previous styling rules for that specific property on that element!
+
+CSS Math Functions
+CSS Math Functions
+The CSS math functions allow mathematical expressions to be used as property values. Here, we will explain the calc(), max() and min() functions.
+
+The calc() Function
+The calc() function performs a calculation to be used as the property value.
+
+The max() Function
+The max() function uses the largest value, from a comma-separated list of values, as the property value.
+
+The min() Function
+The min() function uses the smallest value, from a comma-separated list of values, as the property value.
+
+CSS Advanced
+CSS Rounded Corners
+CSS Border Images
+CSS Backgrounds
+CSS Color Keywords
+CSS Gradients
+CSS Shadows
+CSS Text Effects
+CSS Web Fonts
+CSS 2D Transforms
+CSS 3D Transforms
+CSS Transitions
+CSS Animations
+CSS Tooltips
+CSS Style Images
+CSS Image Reflection
+CSS object-fit
+CSS object-position
+CSS Masking
+CSS Buttons
+CSS Pagination
+CSS Multiple Columns
+CSS User Interface
+CSS Variables
+CSS Box Sizing
+CSS Media Queries
+CSS MQ Examples
+CSS Flexbox
+CSS Responsive
+RWD Intro
+RWD Viewport
+RWD Grid View
+RWD Media Queries
+Responsive Web Design - Media Queries
+
+What is a Media Query?
+Media query is a CSS technique introduced in CSS3.
+
+It uses the @media rule to include a block of CSS properties only if a certain condition is true.
+
+Example
+If the browser window is 600px or smaller, the background color will be lightblue:
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+
+RWD Images
+RWD Videos
+RWD Frameworks
+RWD Templates
+CSS Grid
+Grid Intro
+Grid Container
+Grid Item
+CSS SASS
+SASS Tutorial
+CSS Examples
+CSS Templates
+CSS Examples
+CSS Editor
+CSS Snippets
+CSS Quiz
+CSS Exercises
+CSS Website
+CSS Interview Prep
+CSS Bootcamp
+CSS Certificate
+CSS References
+CSS Reference
+CSS Selectors
+CSS Functions
+CSS Reference Aural
+CSS Web Safe Fonts
+CSS Animatable
+CSS Units
+CSS PX-EM Converter
+CSS Color Values
+CSS Default Values
+CSS Browser Support

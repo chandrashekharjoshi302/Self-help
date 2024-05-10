@@ -1,0 +1,143 @@
+What is React?
+React, sometimes referred to as a frontend JavaScript framework, is a JavaScript library created by Facebook.
+
+React is a tool for building UI components.
+
+How does React Work?
+React creates a VIRTUAL DOM in memory.
+
+Instead of manipulating the browser's DOM directly, React creates a virtual DOM in memory, where it does all the necessary manipulating, before making the changes in the browser DOM.
+
+React only changes what needs to be changed!
+
+React finds out what changes have been made, and changes only what needs to be changed.
+
+React ES6
+
+ECMAScript was created to standardize JavaScript, and ES6 is the 6th version of ECMAScript, it was published in 2015, and is also known as ECMAScript 2015.
+
+Classes
+Arrow Functions
+Variables (let, const, var)
+Array Methods like .map()
+Destructuring
+Modules
+Ternary Operator
+Spread Operator
+
+
+React Render HTML
+
+React's goal is in many ways to render HTML in a web page.
+
+React renders HTML to the web page by using a function called createRoot() and its method render().
+
+The createRoot Function
+The createRoot() function takes one argument, an HTML element.
+
+The purpose of the function is to define the HTML element where a React component should be displayed.
+
+The render Method
+The render() method is then called to define the React component that should be rendered.
+
+But render where?
+
+There is another folder in the root directory of your React project, named "public". In this folder, there is an index.html file.
+
+React JSX
+
+What is JSX?
+JSX stands for JavaScript XML.
+
+JSX allows us to write HTML in React.
+
+JSX makes it easier to write and add HTML in React.
+
+React Components
+Components are like functions that return HTML elements.
+
+export default Car;
+
+export Car;
+
+Props are arguments passed into React components.
+
+Props are passed to components via HTML attributes.
+
+props stands for properties.
+
+React Events
+Just like HTML DOM events, React can perform actions based on user events.
+
+React has the same events as HTML: click, change, mouseover etc
+
+
+React Conditional Rendering
+In React, you can conditionally render components.
+
+There are several ways to do this.
+
+if Statement
+Logical && Operator
+Ternary Operator
+
+React Lists
+In React, you will render lists with some type of loop.
+
+The JavaScript map() array method is generally the preferred method.
+
+Keys
+Keys allow React to keep track of elements. This way, if an item is updated or removed, only that item will be re-rendered instead of the entire list.
+
+Keys need to be unique to each sibling. But they can be duplicated globally.
+
+Generally, the key should be a unique ID assigned to each item. As a last resort, you can use the array index as a key.
+
+React Forms
+Just like in HTML, React uses forms to allow users to interact with the web page.
+
+React Router
+Create React App doesn't include page routing.
+
+React Router is the most popular solution.
+
+React Memo
+Using memo will cause React to skip rendering a component if its props have not changed.
+
+This can improve performance.
+
+Styling React Using CSS
+There are many ways to style React with CSS, this tutorial will take a closer look at three common ways:
+
+Inline styling
+CSS stylesheets
+CSS Modules
+
+Styling React Using Sass
+What is Sass
+Sass is a CSS pre-processor.
+
+Sass files are executed on the server and sends CSS to the browser.
+
+Hooks were added to React in version 16.8.
+
+Hooks allow function components to have access to state and other React features. Because of this, class components are generally no longer neede
+
+What is a Hook?
+Hooks allow us to "hook" into React features such as state and lifecycle methods.
+
+Hook Rules
+There are 3 rules for hooks:
+
+Hooks can only be called inside React function components.
+Hooks can only be called at the top level of a component.
+Hooks cannot be conditional
+
+useState
+useEffect
+useContext
+useRef
+useReducer
+useCallback
+useMemo
+Custom Hooks
