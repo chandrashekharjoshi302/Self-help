@@ -1,0 +1,86 @@
+JavaScript Introduction
+
+JavaScript Can Change HTML Content
+JavaScript Can Change HTML Attribute Values
+JavaScript Can Change HTML Styles (CSS)
+JavaScript Can Hide HTML Elements
+JavaScript Can Show HTML Elements
+
+JavaScript Display Possibilities
+JavaScript can "display" data in different ways:
+
+Writing into an HTML element, using innerHTML.
+Writing into the HTML output using document.write().
+Writing into an alert box, using window.alert().
+Writing into the browser console, using console.log().
+
+Variables are Containers for Storing Data
+JavaScript Variables can be declared in 4 ways:
+
+Automatically
+Using var
+Using let
+Using const
+
+JavaScript Let
+The let keyword was introduced in ES6 (2015)
+
+Variables declared with let have Block Scope
+
+Variables declared with let must be Declared before use
+
+Variables declared with let cannot be Redeclared in the same scope
+
+JavaScript Const
+The const keyword was introduced in ES6 (2015)
+
+Variables defined with const cannot be Redeclared
+
+Variables defined with const cannot be Reassigned
+
+Variables defined with const have Block Scope
+
+JavaScript Operators
+Javascript operators are used to perform different types of mathematical and logical computations.
+
+Examples:
+The Assignment Operator = assigns values
+
+The Addition Operator + adds values
+
+The Multiplication Operator * multiplies values
+
+The Comparison Operator > compares values
+
+Types of JavaScript Operators
+There are different types of JavaScript operators:
+
+Arithmetic Operators
+Assignment Operators
+Comparison Operators
+String Operators
+Logical Operators
+Bitwise Operators
+Ternary Operators
+Type Operators
+
+Types of JavaScript Operators
+There are different types of JavaScript operators:
+
+Arithmetic Operators
+Assignment Operators
+Comparison Operators
+String Operators
+Logical Operators
+Bitwise Operators
+Ternary Operators
+Type Operators
+
+JavaScript Functions
+A JavaScript function is a block of code designed to perform a particular task.
+
+A JavaScript function is executed when "something" invokes it (calls it).
+
+JavaScript Objects
+In JavaScript, objects are king. If you understand objects, you understand JavaScript.
+

@@ -1,5 +1,8 @@
 
 CSS Introduction
+
+<----->
+
 What is CSS?
 CSS stands for Cascading Style Sheets
 CSS describes how HTML elements are to be displayed on screen, paper, or in other media
@@ -16,6 +19,8 @@ p is a selector in CSS (it points to the HTML element you want to style: <p>).
 color is a property, and red is the property value
 text-align is a property, and center is the property value
 
+<----->
+<----->
 CSS Selectors
 
 CSS selectors are used to "find" (or select) the HTML elements you want to style.
@@ -42,6 +47,9 @@ element.class	p.intro	Selects only <p> elements with class="intro"
 element	p	Selects all <p> elements
 element,element,..	div, p	Selects all <div> elements and all <p> elements
 
+<----->
+<----->
+
 CSS How To
 Three Ways to Insert CSS
 There are three ways of inserting a style sheet:
@@ -50,12 +58,17 @@ External CSS
 Internal CSS
 Inline CSS
 
+<----->
+<----->
+
 CSS Comments
 
 CSS Colors
 
 Colors are specified using predefined color names, or RGB, HEX, HSL, RGBA, HSLA values.
 
+<----->
+<----->
 CSS Backgrounds
 
 CSS Backgrounds
@@ -70,7 +83,8 @@ background-attachment
 background-position
 background (shorthand property)
 
-
+<----->
+<----->
 CSS Borders
 
 The CSS border properties allow you to specify the style, width, and color of an element's border.
@@ -90,6 +104,8 @@ outset - Defines a 3D outset border. The effect depends on the border-color valu
 none - Defines no border
 hidden - Defines a hidden border
 
+<----->
+<----->
 
 CSS Margins
 
@@ -102,10 +118,11 @@ margin-right
 margin-bottom
 margin-left
 
-
+<----->
+<----->
 CSS Padding
 
-adding is used to create space around an element's content, inside of any defined borders.
+padding is used to create space around an element's content, inside of any defined borders.
 
 Padding - Individual Sides
 CSS has properties for specifying the padding for each side of an element:
@@ -115,6 +132,8 @@ padding-right
 padding-bottom
 padding-left
 
+<----->
+<----->
 
 CSS Height/Width
 
@@ -130,6 +149,9 @@ max-width	Sets the maximum width of an element
 min-height	Sets the minimum height of an element
 min-width	Sets the minimum width of an element
 width	Sets the width of an element
+
+<----->
+<----->
 
 
 CSS Box Model
@@ -148,11 +170,15 @@ Padding - Clears an area around the content. The padding is transparent
 Border - A border that goes around the padding and content
 Margin - Clears an area outside the border. The margin is transparent
 
+<----->
+<----->
 
 CSS Outline
 CSS Outline
 An outline is a line drawn outside the element's border.
 
+<----->
+<----->
 CSS Text
 CSS has a lot of properties for formatting text.
 
@@ -172,6 +198,8 @@ Choosing the right font for your website is important!
   font-family: "Lucida Console", "Courier New", monospace;
 }
 
+<----->
+<----->
 
 CSS Icons
 Icons can easily be added to your HTML page, by using an icon library.
@@ -179,6 +207,8 @@ Font Awesome Icons
 Bootstrap Icons
 Google Icons
 
+<----->
+<----->
 CSS Links
 With CSS, links can be styled in many different ways.
 a:link - a normal, unvisited link
@@ -186,6 +216,8 @@ a:visited - a link the user has visited
 a:hover - a link when the user mouses over it
 a:active - a link the moment it is clicked
 
+<----->
+<----->
 CSS Lists
 CSS Tables
 CSS Display
@@ -201,6 +233,8 @@ relative
 fixed
 absolute
 sticky
+<----->
+<----->
 
 CSS Z-index
 
@@ -219,6 +253,8 @@ hidden - The overflow is clipped, and the rest of the content will be invisible
 scroll - The overflow is clipped, and a scrollbar is added to see the rest of the content
 auto - Similar to scroll, but it adds scrollbars only when necessary
 
+<----->
+<----->
 CSS Float
 
 The float Property
@@ -232,10 +268,14 @@ none - The element does not float (will be displayed just where it occurs in the
 inherit - The element inherits the float value of its parent
 In its simplest use, the float property can be used to wrap text around images.
 
-
+<----->
+<----->
 
 CSS Inline-block
 CSS Align
+
+<----->
+<----->
 CSS Combinators
 
 CSS Combinators
@@ -250,6 +290,8 @@ child selector (>)
 adjacent sibling selector (+)
 general sibling selector (~)
 
+<----->
+<----->
 
 
 CSS Pseudo-class
@@ -263,6 +305,8 @@ Style an element when a user mouses over it
 Style visited and unvisited links differently
 Style an element when it gets focus
 
+<----->
+<----->
 
 CSS Pseudo-element
 
@@ -274,13 +318,15 @@ For example, it can be used to:
 Style the first letter, or line, of an element
 Insert content before, or after, the content of an elemen
 
+<----->
+<----->
+
 CSS Opacity
 CSS Navigation Bar
 CSS Dropdowns
 CSS Image Gallery
 CSS Image Sprites
 CSS Attr Selectors
-
 CSS Attribute Selectors
 Style HTML Elements With Specific Attributes
 It is possible to style HTML elements that have specific attributes or attribute values.
@@ -300,6 +346,8 @@ CSS Forms
 CSS Counters
 CSS Website Layout
 CSS Units
+<----->
+<----->
 CSS Specificity
 CSS Specificity
 What is Specificity?
@@ -309,12 +357,15 @@ Think of specificity as a score/rank that determines which style declaration is 
 
 Look at the following examples:
 
+<----->
+<----->
 CSS !important
 What is !important?
 The !important rule in CSS is used to add more importance to a property/value than normal.
 
 In fact, if you use the !important rule, it will override ALL previous styling rules for that specific property on that element!
-
+<----->
+<----->
 CSS Math Functions
 CSS Math Functions
 The CSS math functions allow mathematical expressions to be used as property values. Here, we will explain the calc(), max() and min() functions.
@@ -328,6 +379,8 @@ The max() function uses the largest value, from a comma-separated list of values
 The min() Function
 The min() function uses the smallest value, from a comma-separated list of values, as the property value.
 
+<----->
+<----->
 CSS Advanced
 CSS Rounded Corners
 CSS Border Images

@@ -1,0 +1,64 @@
+.main{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.child{
+
+    padding: 20px;
+    min-width: 300px;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+
+}
+label{
+    display: block;
+    font-size: 16px;
+    font-weight: 800;
+    color: red;
+}
+
+input{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid black;
+    margin: 10px;
+    outline: none; 
+
+    transition: border-color 0.3s
+}
+
+.login{
+    text-align: center;
+    display: block;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.child>div{
+    margin: 20px;
+}
+
+button{
+    background-color:  rgb(26 86 219);
+    font-size: 14px;
+    font-weight: 800;
+    display: block;
+    text-align: center;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100px;
+}
+
+
+input:focus {
+    border-color: transparent; /* Hide border on focus */
+    border-bottom: 1px solid black;
+}

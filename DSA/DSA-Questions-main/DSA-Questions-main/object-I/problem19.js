@@ -11,3 +11,6 @@ let obj = {
        console.log(key, obj.key);
      }
    
+     for(let key in obj){
+      console.log(key)
+     }

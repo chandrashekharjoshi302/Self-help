@@ -9,3 +9,18 @@ for (let i=0;i<=arr.length-1;i++){
 }
 
 console.log(total);
+
+
+let count = 0
+let str = ''
+for(let i=0;i<arr.length;i++){
+  str+=arr[i]
+
+  for(let i=0;i<str.length;i++){
+    count++
+ 
+
+  }  
+
+}
+console.log(count)

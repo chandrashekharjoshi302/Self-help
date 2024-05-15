@@ -6,9 +6,16 @@
 let name="Steve Rogers";
 
 for (let i=0;i<=name.length-1;i++){
-  console.log(name[i]);
+  // console.log(name[i]);
 }
 
 //==> there will be a length property
 //==> indexing also
 //==> way of accessing each charaters
+
+let ii= 0
+
+while(ii<name.length){
+  console.log(name[ii])
+  ii++
+}

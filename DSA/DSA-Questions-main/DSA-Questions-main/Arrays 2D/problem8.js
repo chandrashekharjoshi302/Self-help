@@ -36,3 +36,12 @@ father = rows-1;
 for(let son=1; son<cols; son++){
 console.log(arr[father][son]);
 }
+
+
+
+let arrayOfDD = [
+    [1,2,3],
+    [4,5,6],
+    [7,8,9]
+]
+

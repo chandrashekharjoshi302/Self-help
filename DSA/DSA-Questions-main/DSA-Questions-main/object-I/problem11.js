@@ -8,6 +8,9 @@ let details={
       house: "345"
     }
   };
+
+  console.log(details.address.house , "here what i want to print")
+
   
   console.log(details["address"]["pin"]);
   

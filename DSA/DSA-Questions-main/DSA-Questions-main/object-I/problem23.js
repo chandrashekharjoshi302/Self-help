@@ -25,5 +25,24 @@ for(let x in diary ){
 }
 
 
+let Charone = "chandrashekhar";
 
-https://drive.google.com/file/d/1lMCy-fExJRdsOPLLT02gwYRIZJ3kLuOl/view?usp=sharing
+let object = {}
+
+for(let i=0;i<str.length;i++){
+  
+  let chardata = str[i]
+
+  if(object[chardata]==undefined){
+    object[chardata] = 1
+
+  }else{
+    object[chardata]++
+  }
+}
+
+console.log(object)
+
+
+
+// https://drive.google.com/file/d/1lMCy-fExJRdsOPLLT02gwYRIZJ3kLuOl/view?usp=sharing
